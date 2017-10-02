@@ -19,7 +19,7 @@ public class Exercise11 {
 		double euros = indput.nextDouble();
 		System.out.print("What is the exchange rate? ");
 		double exchangeRateEuro = indput.nextDouble();
-		System.out.format("%.0f euros at an exchange rate of %.2f is\n81",euros,exchangeRateEuro);
+		System.out.format("%.0f euros at an exchange rate of %.2f is\n",euros,exchangeRateEuro);
 		double dollars = euroToDollar(euros,exchangeRateEuro);
 		
 		System.out.format("%.2f U.S. dollars.",dollars);
